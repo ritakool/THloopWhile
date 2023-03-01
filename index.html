@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành vòng lặp While</title>
+</head>
+<body>
+<h1>Thực hành vòng lặp While</h1>
+<button type="button" onclick="Bai1()">Bài 1</button>
+<h2>Bài 2</h2>
+<script>
+    function Bai1() {
+        let num;
+        let total = 0;
+        while (num != -1) {
+            num = parseInt(prompt("Enter a number: "))
+            alert(num);
+            total += num;
+            alert(total);
+        }
+    }
+    let i=1;
+    while (i<100){
+        document.write("<hr width = " + i + "%>");
+        i++;
+    }
+
+</script>
+</body>
+</html>
